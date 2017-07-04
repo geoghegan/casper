@@ -1,6 +1,6 @@
 package main
 
-import "github.com/miracl/casper/cmd"
+import "github.com/geoghegan/casper/cmd"
 
 func main() {
 	cmd.Execute()
