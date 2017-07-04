@@ -9,7 +9,6 @@ pipeline:
       - go test
   docker:
     image: plugins/docker
-    username: kevinbacon
     repo: geoghegan/casper
     tags: latest
     secrets: [ docker_username, docker_password ]
