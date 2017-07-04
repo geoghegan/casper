@@ -4,5 +4,6 @@ pipeline:
     commands:
       - go get github.com/golang/lint/golint
       - go get github.com/mattn/goveralls
+      - go get github.com/miracl/casper/cmd
       - go build
       - go test
