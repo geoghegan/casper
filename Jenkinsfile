@@ -1,4 +1,4 @@
-node("docker") {
+node("master") {
     docker.withRegistry('geoghegan/casper', 'dockerhub') {
     
         git url: "https://github.com/geoghegan/casper", credentialsId: 'github'
